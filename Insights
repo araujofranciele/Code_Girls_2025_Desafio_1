@@ -1,0 +1,8 @@
+# 🌟 Boas Práticas no Gerenciamento de EC2
+
+- Sempre **parar instâncias** quando não estiverem sendo usadas.
+- Use **tags descritivas** para identificar recursos facilmente.
+- Faça **snapshots** antes de alterar configurações importantes.
+- **Monitore custos** usando o AWS Cost Explorer.
+- Evite deixar portas desnecessárias abertas no Security Group.
+- Utilize **nomes padronizados** para instâncias e volumes (ex: `lab-ec2-franciele`).
