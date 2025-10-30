@@ -1,0 +1,27 @@
+
+---
+
+### 📄 **anotações/configuracao-instancia.md**
+
+```markdown
+# ⚙️ Configuração da Instância EC2
+
+## Passos Realizados:
+1. Acesse o **AWS Management Console**
+2. Vá até o serviço **EC2**
+3. Clique em **Launch Instance**
+4. Escolha:
+   - **Nome**: `Lab-EC2-Franciele`
+   - **AMI (Imagem)**: Amazon Linux 2
+   - **Tipo de instância**: `t2.micro` (elegível ao Free Tier)
+5. Crie ou selecione um **par de chaves (Key Pair)**
+6. Configure o **Security Group**:
+   - Permitir tráfego **SSH (porta 22)** de “My IP”
+7. Clique em **Launch Instance**
+
+---
+
+✅ Após a criação:
+- Acesse o terminal e conecte com o comando:
+  ```bash
+  ssh -i "minha-chave.pem" ec2-user@<ip-público>
