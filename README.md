@@ -1,14 +1,14 @@
 # Code_Girls_2025_Desafio_1
 Laboratório prático sobre gerenciamento de instâncias EC2 na AWS, com anotações, comandos e insights de aprendizado.
 
-# 🌩️ Laboratório AWS EC2
+## Laboratório AWS EC2
 
 Repositório criado para consolidar meus conhecimentos em **gerenciamento de instâncias EC2** na AWS.  
 Aqui estão reunidas minhas anotações, comandos, boas práticas e insights adquiridos durante o laboratório prático.  
 
 ---
 
-## 🧠 Objetivos do Laboratório
+## Objetivos do Laboratório
 - Criar e configurar instâncias EC2 no AWS Console
 - Acessar a instância via SSH
 - Configurar segurança e permissões (Security Groups e Key Pairs)
@@ -17,7 +17,7 @@ Aqui estão reunidas minhas anotações, comandos, boas práticas e insights adq
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Amazon Web Services (AWS)
 - Amazon EC2
 - AWS CLI
@@ -25,7 +25,7 @@ Aqui estão reunidas minhas anotações, comandos, boas práticas e insights adq
 
 ---
 
-## 🗂 Estrutura do Repositório
+## Estrutura do Repositório
 | Pasta | Descrição |
 |-------|------------|
 | `anotações/` | Documentos com comandos e configurações utilizados durante o laboratório |
@@ -33,7 +33,7 @@ Aqui estão reunidas minhas anotações, comandos, boas práticas e insights adq
 
 ---
 
-## 💬 Principais Insights
+## Principais Insights
 - Configurar corretamente o **Security Group** é essencial para evitar falhas de conexão.
 - Sempre **parar a instância** quando não estiver em uso, evitando custos desnecessários.
 - Usar **tags** ajuda muito na organização e no controle de custos.
@@ -41,5 +41,5 @@ Aqui estão reunidas minhas anotações, comandos, boas práticas e insights adq
 
 ---
 
-📘 *Projeto desenvolvido por **Franciele Araújo** como parte de um laboratório prático sobre AWS EC2.*
+*Projeto desenvolvido por Franciele Araújo como parte de um laboratório prático sobre AWS EC2.*
 
